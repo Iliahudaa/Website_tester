@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Biodata</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffe4e8;
+  z-index: 3;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+ul.topnav li a.active {
+  background-color: #df9fa9;
+  color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+.topnav-icon:hover {
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Style for body */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+
+.experience-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Experience Item */
+.experience-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #df9fa9;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.experience-item h3 {
+  color: #df9fa9;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.experience-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.experience-item span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .experience-container {
+    padding: 15px;
+  }
+
+  .experience-item h3 {
+    font-size: 18px;
+  }
+
+  .experience-item p {
+    font-size: 13px;
+  }
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="main.html"  class="topnav-icon"><i class="fa fa-home"></i></a></li>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a class="active" href="ex.html">Experience</a></li>
+  <li><a href="edu.html">Education</a></li>
+  <li><a href="fam.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<br>
+<br>
+<br>
+<h1>EXPERIENCE</h1>
+
+<div class="experience-container">
+  <div class="experience-item">
+    <h3>Internship at Kuala Muda/Yan District Education Office</h3>
+    <p><span>Duration:</span> 2 months</p>
+    <p><span>Role:</span> Intern</p>
+    <p>Assisted in administrative tasks, improved communication skills, and gained hands-on experience in information management.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Diploma in Information Management</h3>
+    <p><span>Institution:</span> UiTM</p>
+    <p><span>Current Semester:</span> Final Semester</p>
+    <p>Learned valuable skills.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Program Siswa Cakna OKU, Siri 2, 2023</h3>
+    <p><span>Role:</span> Organizer (AJK)</p>
+    <p>Organized an inclusive program aimed at raising awareness and creating impactful activities for the OKU community.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>3rd International Competition of Entrepreneurship Business Innovation (iCEBIV)</h3>
+    <p><span>Achievement:</span> Bronze Medal</p>
+    <p>Competed as part of a team to present a creative business innovation. Developed teamwork and presentation skills.</p>
+  </div>
+</div>
+
+<br>
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

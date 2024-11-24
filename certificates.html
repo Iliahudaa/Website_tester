@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Certificates Section</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffe4e8;
+  z-index: 3;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+ul.topnav li a.active {
+  background-color: #df9fa9;
+  color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+.topnav-icon:hover {
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Style for title */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px;
+}
+
+.gallery {
+  position: relative;
+  width: 400px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.gallery:hover .image {
+  opacity: 0.3;
+}
+
+.gallery:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #df9fa9;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px 32px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+  margin-top:auto;
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a class="active" href="main.html"  class="topnav-icon"><i class="fa fa-home"></i></a></li>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li><a href="edu.html">Education</a></li>
+  <li><a href="fam.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<br>
+<br>
+<br>
+<h1>E-CERTIFICATES</h1>
+
+<div class="gallery-container">
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Kuiz Cabaran Minda Sihat"</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil1.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for the STEM Decathlon Challenge</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil2.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for the Webinar</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil3.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for A Journey Towards Developing Future Leaders Program</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil4.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Appreciation for "Siswa Cakna OKU, Siri 2" </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil5.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Program Kerohanian Perdana Pasukan Badan Beruniform"</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil6.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Teknik Menjawab Matematik"</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil7.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Pertandingan Kuiz Asertif Peringkat Kebangsaan"</div>
+      </div>
+    </div>
+  </div>  
+</div>
+  
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

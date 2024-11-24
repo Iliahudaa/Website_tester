@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Biodata</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffe4e8;
+  z-index: 3;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+ul.topnav li a.active {
+  background-color: #df9fa9;
+  color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+.topnav-icon:hover {
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Style for body */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+    
+/* Family Container */
+.family-tree {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Family Member Cards */
+.family-member {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px;
+  width: 180px;
+  background-color: #df9fa9;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.family-member:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Family Member Details */
+.family-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.family-member h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.family-member p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .family-member {
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+    
+/* footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="main.html"  class="topnav-icon"><i class="fa fa-home"></i></a></li>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li><a href="edu.html">Education</a></li>
+  <li><a class="active" href="fam.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<br>
+<br>
+<br>
+<h1>FAMILY</h1>
+
+<div class="family-tree">
+  <div class="family-member">
+    <img src="abu.jpg" alt="Father">
+    <h3>Bukhori</h3>
+    <p>Will always be in our heart as our first hero.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="ummi.jpg" alt="Mother">
+    <h3>Na'aimah</h3>
+    <p>Our beloved mom who keeps us all united.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="along.jpg" alt="Older Brother">
+    <h3>Idham</h3>
+    <p>Our eldest brother, married with a lovely woman.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="siseira.jpg" alt="Sister-in-Law">
+    <h3>Fazira</h3>
+    <p>The wonderful wife of Idham and a good mother.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="aafiya.jpg" alt="Niece">
+    <h3>Aafiya</h3>
+    <p>The adorable daughter of Idham and his wife, Fazira.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="izani.jpg" alt="Older Brother">
+    <h3>Izani</h3>
+    <p>Our second older brother, married to a lovely wife.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="sisdian.jpg" alt="Sister-in-Law">
+    <h3>Diana</h3>
+    <p>The kind wife of our second brother.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="sis.jpg" alt="Sister">
+    <h3>Izzati</h3>
+    <p>My elder sister, full of wisdom and kindness.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="ilia.jpg" alt="Ilia">
+    <h3>Me (Ilia)</h3>
+    <p>I'm the fourth child in our family, always learning and growing.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="ateh.jpg" alt="Spoil Younger Sister">
+    <h3>Izzatul</h3>
+    <p>Our younger sister, vibrant and creative.</p>
+  </div>
+
+  <div class="family-member">
+    <img src="iman.jpg" alt="Spoil Younger Brother">
+    <h3>Ikmal</h3>
+    <p>The youngest in our family, full of energy and curiosity.</p>
+  </div>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

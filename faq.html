@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Certificates Section</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffe4e8;
+  z-index: 3;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+ul.topnav li a.active {
+  background-color: #df9fa9;
+  color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+.topnav-icon:hover {
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Style for title */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+
+/* FAQ Section Styling */
+.faq-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling <details> and <summary> */
+details {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #df9fa9;
+  padding-bottom: 10px;
+}
+
+details summary {
+  font-size: 18px;
+  font-weight: bold;
+  color: #df9fa9;
+  cursor: pointer;
+  list-style: none;
+}
+
+details summary:hover {
+  color: #c16e81;
+}
+
+details[open] summary {
+  color: #c16e81;
+}
+
+details p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+  margin-top:auto;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a class="active" href="main.html"  class="topnav-icon"><i class="fa fa-home"></i></a></li>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li><a href="edu.html">Education</a></li>
+  <li><a href="fam.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<br>
+<br>
+<br>
+<h1>Frequently Ask Questions</h1>
+
+<!-- FAQ Section -->
+<div class="faq-section">
+
+  <details>
+    <summary>What is your full name, and what do people call you?</summary>
+    <p>My full name is Nur Ilia Huda Binti Bukhori, but most people just call me Ilia!</p>
+  </details>
+
+  <details>
+    <summary>What are your hobbies or passions?</summary>
+    <p>I love exploring creativity through design, photography, and reading. I also enjoy learning new things and trying out different skills!</p>
+  </details>
+
+  <details>
+    <summary>What is your dream job or career?</summary>
+    <p>My dream job is to work as a creative designer or project manager, where I can combine my love for creativity and organization.</p>
+  </details>
+
+  <details>
+    <summary>What motivates you?</summary>
+    <p>Knowing that every day is a chance to grow and improve myself motivates me to keep learning and exploring.</p>
+  </details>
+</div>
+
+<br>
+<br>
+<br>
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

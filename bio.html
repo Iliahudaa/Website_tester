@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Biodata</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffe4e8;
+  z-index: 3;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+ul.topnav li a.active {
+  background-color: #df9fa9;
+  color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+.topnav-icon:hover {
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+img {
+  width:200px;
+  height:300px;
+  border-radius:50%;
+}
+
+#img {
+  width: 200px;
+  height: 300px;
+  border-radius:50%;
+  color: white;
+  animation: imgmove 0.5s infinite;
+}
+
+@keyframes imgmove {
+  50% {box-shadow: 10px 20px 30px #df9fa9;}
+}
+
+/* Style for body */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.section {
+  width: 45%;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+        
+h2 {
+  color: #df9fa9;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="main.html"  class="topnav-icon"><i class="fa fa-home"></i></a></li>
+  <li><a class="active" href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li><a href="edu.html">Education</a></li>
+  <li><a href="fam.html">Family</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<br>
+<br>
+<br>
+<h1><center>BIODATA<center></h1>
+
+<div class="img">
+  <center>
+    <div id="img">
+      <img src="selfie2.jpg" alt="HTML5 Icon">
+    </div>
+    <i class="fa fa-star-o" style="font-size:48px;color:red"></i>
+    <i class="fa fa-star" style="font-size:36px; transform: rotate(20deg);"></i>
+  </center>  
+</div>
+
+<div class="content">
+    <div class="section">
+        <h2>Basic Information</h2>
+        <p><strong>Full Name:</strong> Nur Ilia Huda Binti Bukhori</p>
+        <p><strong>Nickname:</strong> Ilia</p>
+        <p><strong>Date of Birth:</strong> 24 March 2004</p>
+        <p><strong>Nationality:</strong> Malaysian</p>
+        <p><strong>Hometown:</strong> Kedah</p>
+        <p><strong>Gender:</strong> Female </p>
+        <p><strong>Marital Status:</strong> Single </p>
+    </div>
+
+    <div class="section">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Reading: Exploring new worlds through books.</li>
+            <li>Design: Creating art with creativity and passion.</li>
+        </ul>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
